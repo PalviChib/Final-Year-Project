@@ -1,0 +1,749 @@
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#menu ul{
+  align-items: center;
+  list-style: none;
+  margin: 45px;
+}
+#menu li{
+ 
+ 
+  margin: 45px;
+  display: inline;
+  text-align: center;
+  
+}
+.box
+{
+  background-color:antiquewhite;
+  Height:60px;
+  font-size:27px;
+   margin-top: 0px;
+   line-height: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form
+{
+   background-color: aliceblue;
+   align-items: center;
+   width: 500px;
+   padding: 25px;
+   
+   margin:100px;
+   margin-left:550px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form-outline 
+{
+  display: inline;
+}
+.UserName
+{
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 3px;
+  font-weight:bolder;
+}
+.login
+{
+  font-size: 35px;
+  font-weight:bolder;
+  color:blue;
+}
+#loginbutton
+{
+  width: 100px;
+  height: 50px;
+  font-weight:bolder;
+}
+#loginbutton:hover {
+  background-color:white; /* Green */
+  color: black;
+}
+.DemoGas
+{
+  background-color:#98FB98;
+  Height:80px;
+  font-size:27px;
+   line-height: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: transparent;
+  /* box-shadow: 0px 15px 20px #000; */
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+.ayodhya
+{
+  font-size: 33px;
+  margin-left: 571px;
+  font-family: 'Italianno', cursive;
+}
+nav{
+  /* display: flex; */
+  /* justify-content: center; */
+  /* background-color: yellowgreen; */
+  /* height : 55px; */
+  /* align-content: center; */
+}
+nav .logo{
+  margin-left: 30px;
+}
+
+ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 8px;
+    display: inline;
+}
+
+.nav_signin_btn{
+  padding: 7px 17px;
+  background-color: #e50914 ;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  padding: 12px 45px;
+  margin-top: 37px;
+}
+
+.nav_signup_btn{
+  /* padding: 7px 17px;
+  background-color: Red;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  cursor: pointer;
+  align-items: center;
+  padding: 12px 45px; */
+  padding: 7px 17px;
+  background-color: #e50914 ;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  padding: 12px 45px;
+  margin-top: 7px;
+  
+}
+.nav_home_btn
+{
+  /* padding: 7px 17px;
+  background-color: Red;
+  border: 1px solid;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-weight: 400;
+  font-size: 0.8rem;
+  cursor: pointer;
+  align-items: center;
+  padding: 12px 45px;
+  padding: 7px 17px; */
+  background-color: #e50914 ;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  padding: 12px 45px;
+  margin-top: 7px;
+  
+}
+section{
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+ 
+  
+}
+.welcome_msg{
+  color: #fff;
+  margin: 100px;
+  text-align: center;
+  width: 80vw;
+  text-transform: capitalize;
+  
+}
+.welcome_msg h1{
+  font-size: 40px;
+}
+.welcome_msg h2{
+  margin-top: 15px;
+  font-size: 20px;
+}
+.welcome_msg h3{
+  margin-top: 10px;
+  font-size: 18px;
+}
+.welcome_msg h4{
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.form_content{
+  background-color: rgba(158, 207, 23, 0.897);
+  border: 3px solid green;
+  border-radius: 5px;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 50px;
+  /* color: #fff; */
+  color: black;
+  margin-top: 20px;
+
+}
+.signIn_form{
+  left: 40%;
+    height: 500px;
+    width: 400px;
+    position: relative;
+    top: 20%;
+    align-items: justify;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+
+}
+.signUp-form{
+   height: 70vh;
+   width: 18vw;
+   position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.forgot_form{
+  height: 35vh;
+  width: 18vw;
+  margin-left: 578px;
+}
+.reset_form{
+  height: 35vh;
+  width: 18vw;
+  margin-left: 578px;
+}
+.profile_form{
+  height: 80vh;
+  width: 50vw;
+}
+
+.form_title p{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: left;
+  font-family: 'Italianno', cursive;
+};
+
+.form_title span{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.form-group{
+  padding-top: 20px;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+}
+
+.form-group input[type="text"],input[type="password"]{
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  height: 40px;
+  background-color:white;
+  color: black
+}
+.form-group input[type="text"]:focus,input[type="password"]:focus{
+  outline: 1px solid #e50914;
+
+}
+.error{
+  text-align: left;
+  color: #e50914;
+  font-size: 0.7em;
+
+}
+.btn-box{
+  margin-top: 10px;
+}
+.btn-box .btn{
+  padding: 10px 0;
+  background-color: #e50914 ;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.form-bottom{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8em;
+  color: black;
+}
+ #cbox{
+  width: 20px; /*Desired width*/
+  height: 20px; /*Desired height*/
+  
+  
+  cursor: pointer;
+}
+.form-bottom p{
+  color: black;
+}
+
+.link{
+  
+  text-decoration: none;
+  
+} 
+*{
+    margin:0;
+    padding :0;
+}
+.navbar{
+    display : flex; 
+}
+.leftnav{
+display: flex;
+width : 100%;   
+background-color:orange;
+justify-content: center;
+align-items: center;
+color: rgb(68, 22, 114);
+height:75px;
+margin-top: -8px; 
+}
+.leftnav li  {
+    list-style: none;
+    padding: 23px;
+    font-size: 22px;
+}
+.leftnav li #one{
+ text-align: right;
+}
+.leftnav  li a{
+    text-decoration: none; 
+}
+.leftnav  li a:hover{
+     color: honeydew;
+}
+.rightnav{
+    width : 50%;   
+   background-color:orange;
+    text-align: right;/*Class Ki Value Right Mai*/
+    padding: 23px;  
+}
+#find{
+  padding: 7px 17px;
+  background-color: #e50914 ;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 3px;
+  margin-bottom: 3px;
+}
+
+.whole{
+    background-color: rgb(255,248,220,0.7);
+}
+
+#search{
+ /*padding: 5px;*/  
+ margin-top: 0px; 
+ margin-right: 10px;
+ font-size: 17px;
+ border: 2px solid gray;
+ background-color: white;
+ border-radius: 2px;
+}
+.firstsection{
+   display: flex;
+    width: fit-content;
+}
+.boxmain{
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#boxmain{
+    border: 2px solid maroon;
+    height: 496px;
+    width: 670px; 
+    margin-left: 0px; 
+}
+#secondhalf{
+  /* border: 2px solid blue; */
+  font-size: 54PX;
+  color: darkblue;
+  font-family:'Times New Roman', Times, serif ;
+  height: 400px;
+  width: 400px;
+  padding-left: 83px;
+  margin: 10px;
+  margin-top: -45px;
+  margin-left: 75px;
+}
+#one1
+{
+font-family: 'Italianno', cursive;
+font-size: 22px;
+text-align: left;
+}
+
+.secondsectiondiv
+{
+  
+   display: flex;
+    position: relative;
+    margin-top: 43px;
+    font-size: 40px;
+    text-align: center;
+   
+}
+#secondsection
+{
+    justify-content: center;
+    align-items: center;
+    
+    height: 300px;
+}
+#secondimage
+{
+
+    height: 250px;
+    width: 280px;
+    align-self: center;
+    opacity: 0.7;
+  
+}
+#soul
+{
+    color: rgb(68, 22, 114);
+    position: absolute;
+    height: 100px;
+   font-size: 43px;
+    padding: 39px;
+    top : 0px
+}
+
+.thirdsectiondiv
+{
+   
+display: flex; 
+position: relative;
+ 
+}
+#thirdsection
+{
+    /* border: 2px solid blue; */
+   
+    height: 1000px;
+}
+#zero
+{
+    height: 98px;
+    width: 78px;
+    margin-left: 650px;
+    text-align: center;
+    font-size:90px;
+   
+   color: rgb(68, 22, 114);
+    position: absolute;
+    
+}
+#zero1
+{
+    height: 98px;
+    width: 600px;
+    margin-left: 520px;
+    text-align: center;
+    font-size:30px;
+    margin-top: 115px;
+    color: orangered;
+    position: absolute;
+    
+}
+#one
+{
+    height: 347px;
+    width: 278px;
+    border-radius: 8px;
+    margin-top: -12em;
+    margin-left: 50px;
+    align-self: center;
+    background-image: url('./assets/student-lapi.jpg');
+    background-size: cover;
+   
+    
+}
+
+#two
+{
+    height: 347px;
+    width: 278px;
+    margin-top: -12em;
+    align-self: center;
+    margin-left: 130px;
+   border-radius: 8px;
+   background-image: url('./assets/students.jpg');
+    background-size: cover;
+   
+
+    
+}
+#three
+{
+    height: 347px;
+    width: 278px;
+    border-radius: 8px;
+    margin : 40px;
+    
+    margin-top: -10em;
+    margin-left: 144px;
+    margin-right: -438px;
+    align-self: center;
+    
+    background-image: url('./assets/degree.jpg');
+   background-size: cover;
+    
+}
+#four
+{
+    height: 347px;
+    width: 278px;
+    border-radius: 8px;
+    margin-top: -12em;
+    margin-left: 560px;
+    margin-right: 64px;
+    align-self: center;
+    background-image: url('./assets/grade.jpg');
+   background-size: cover;
+    
+    
+}
+
+
+
+.fourthsectiondiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    background-color: rgb(68, 22, 114);
+  
+}
+#fourthsection
+{
+    justify-content: center;
+    align-items: center;
+    /* border :2px solid blue; */
+    height: 700px;
+}
+.mission
+{
+    color: white;
+    margin-top: -650px;
+   
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 55px;
+    justify-content: center;
+
+    
+}
+.para
+{
+    color: white;
+   
+    text-align: center;
+    font-family: 'Italianno', cursive;
+    font-size: 55px;
+    justify-content: center;
+}
+.sixthsectiondiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    object-fit: cover;
+}
+#sixthsection
+{
+     border :2px solid blue; 
+    height: 900px;
+    /* background-image: url('../assets/va.JPG'); */
+   background-size: cover;
+  
+  
+}
+
+.seventhsectiondiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    background-color: orange;
+}
+#seventhsection
+{
+    border :2px solid blue;
+    height: 500px;
+    width: 1510px;
+}
+.purchase
+{
+    height: 200px;
+    width:200px;
+    border: 3px solid maroon;
+    margin-top:-120px;
+}
+.eighthsectiondiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+    
+}
+#eight
+{
+
+}
+#map
+{
+    margin-top:90px ;/*yeh margin ko agar class mai likho toh nahi chalta hai*/
+    border :2px solid blue;
+    height: 500px;
+   
+}
+.tenthsectiondiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+    
+}
+#tenthsection
+{
+    border :2px solid blue;
+    height: 500px;
+}
+#last
+{
+    background-color:rgb(68, 22, 114);
+    vertical-align: center;
+    text-align: center;
+    color: white;
+}
+.last
+{
+  
+    height: 50px;
+}
+
+
+
+.ok
+{
+  /* background-color:rgb(68, 22, 114); */
+  
+    height: 496px;
+    width: 670px;
+    margin-left: -444px;
+    margin-top:196px;
+}
+.myinformation
+{
+  border:2px solid blue;
+  width: 300px;
+  height:100px;
+  margin-left:40% ;
+  margin-top: 34px;
+ 
+}
+
+
